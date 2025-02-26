@@ -1,0 +1,10 @@
+function adivinharNumero(){
+    let sorteado = Math.floor(Math.random() * 11);
+    let numero;
+    do{
+         numero = parseFloat(prompt("Acerte o Número: "));
+    }
+    while(numero !== sorteado);
+   
+}
+console.log(adivinharNumero());
