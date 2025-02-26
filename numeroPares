@@ -1,0 +1,9 @@
+let n = parseFloat(prompt("Digite um Número: "));
+
+function numerosPares(n){
+    for(let i=0; i<= n ; i=i+2){
+        console.log(i);
+    }
+}
+
+console.log(numerosPares(n));
