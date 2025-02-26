@@ -1,0 +1,15 @@
+let numero;
+let soma = 0;
+
+function somarAteNegativo(numero){
+    
+    numero = parseFloat(prompt("Digite um numero: "));
+    
+    while(numero >= 0){
+        soma = soma + numero;
+        console.log(soma)
+        numero = parseFloat(prompt("Digite um numero: "));
+    }
+}
+
+somarAteNegativo(numero);
