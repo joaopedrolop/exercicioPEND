@@ -1,0 +1,12 @@
+let n = parseFloat(prompt("Digite um numero: "));
+let soma = 0;
+function somaAteN(n){
+    for (let i = 1; i <= n; i++){
+        soma = i + soma;
+        
+    }
+    
+    console.log(soma)
+}
+
+somaAteN(n);
